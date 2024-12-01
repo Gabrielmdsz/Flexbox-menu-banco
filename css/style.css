@@ -1,0 +1,45 @@
+body{
+    font-family: "Public sans", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo h1{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    margin-left: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #FFF;
+}
+
+.menu .btn a{
+    background-color: #5BC241;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #FFF;
+    margin-left: 30px;
+}

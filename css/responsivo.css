@@ -1,0 +1,37 @@
+@media (max-width: 650px) {
+
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h1{
+        font-size: 40px;
+    }
+    
+    .menu{
+        flex-direction: column;
+        margin: 40px;
+    }
+    
+    .menu li{
+        padding: 30px 0;
+    }
+
+    .menu li a{
+        padding: 17px 40px;
+        font-size: 40px;
+    }
+
+    .menu .btn a {
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        
+    }
+
+  }
